@@ -1,0 +1,80 @@
+{
+  "name": "@threesdev/ds",
+  "description": "✴︎ the design system",
+  "version": "0.1.0",
+  "author": "Jackson Dolman <mail@dolmios.com>",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "bugs": "https://github.com/threesdev/ds/issues",
+  "devDependencies": {
+    "@stitches/react": "^1.2.7",
+    "@types/react": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "eslint": "^8.13.0",
+    "eslint-config-dolmios": "^1.0.5",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "microbundle": "^0.14.2",
+    "next": "^12.1.5",
+    "parcel": "^2.4.1",
+    "phosphor-react": "^1.4.1",
+    "prettier": "^2.6.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-hot-toast": "^2.2.0",
+    "typescript": "^4.6.3",
+    "usehooks-ts": "^2.5.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://ds.threes.dev",
+  "keywords": [
+    "component",
+    "components",
+    "cosmo",
+    "design",
+    "framework",
+    "frontend",
+    "next",
+    "nextjs",
+    "react",
+    "react-component",
+    "stitches",
+    "stitches-react",
+    "ui",
+    "user interface"
+  ],
+  "license": "GPL-3.0",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.module.js",
+  "packageManager": "yarn@3.2.0",
+  "peerDependencies": {
+    "@stitches/react": "^1.2.7",
+    "next": ">=12.1.0",
+    "phosphor-react": ">=1.4.0",
+    "react": ">=17.0.2",
+    "react-dom": ">=17.0.2",
+    "react-hot-toast": ">=2.0.0"
+  },
+  "prettier": "eslint-config-dolmios/.prettierrc.json",
+  "repository": "https://github.com/threesdev/ds.git",
+  "scripts": {
+    "build": "yarn lint && microbundle --jsx React.createElement --compress --format esm,cjs,modern",
+    "playground": "parcel playground/index.html --dist-dir playground/dist --open",
+    "lint": "eslint src --ext js,jsx,ts,tsx",
+    "prettier": "prettier --check '**/*.{js,jsx,ts,tsx}'",
+    "watch": "microbundle watch --jsx React.createElement"
+  },
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts"
+}
