@@ -1,4 +1,4 @@
-import React, { useRef, useState, ReactNode } from 'react';
+import React, { ReactNode, useRef, useState } from 'react';
 import { useOnClickOutside } from 'usehooks-ts';
 
 import { DefaultProps } from '../../stitches.config';

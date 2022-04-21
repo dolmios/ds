@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 
 import { breakpoints, DefaultProps } from '../../stitches.config';
 
-import { StackRowStyled, StackColumnStyled } from './Stack.styles';
+import { StackColumnStyled, StackRowStyled } from './Stack.styles';
 
 export interface Props extends Omit<DefaultProps, 'spacing'> {
   children: ReactNode;

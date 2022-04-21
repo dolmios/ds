@@ -974,7 +974,90 @@ export declare const lightTheme: string & {
         text: string;
     };
 }, "">;
-export declare const globalStyles: () => string;
+export declare const reset: {
+    '@import': string;
+    '*': {
+        MozOsxFontSmoothing: string;
+        WebkitAppearance: string;
+        WebkitFontSmoothing: string;
+        boxSizing: string;
+        letterSpacing: string;
+        marginBlockEnd: number;
+        marginBlockStart: number;
+        marginInlineEnd: number;
+        marginInlineStart: number;
+        outline: string;
+        paddingBlockEnd: number;
+        paddingBlockStart: number;
+        paddingInlineEnd: number;
+        paddingInlineStart: number;
+        wordSpacing: string;
+    };
+    '*:after': {
+        boxSizing: string;
+    };
+    '*:before': {
+        boxSizing: string;
+    };
+    a: {
+        color: string;
+        textDecoration: string;
+    };
+    body: {
+        [x: string]: string | number | {
+            background: string;
+            color: string;
+        };
+        backgroundColor: string;
+        border: number;
+        color: string;
+        fontFamily: string;
+        fontSize: string;
+        margin: number;
+        overflowX: string;
+        overflowY: string;
+        padding: number;
+    };
+    button: {
+        '&::-moz-focus-inner': {
+            border: number;
+            outline: number;
+            outlineOffset: number;
+            padding: number;
+        };
+        '&:active': {
+            outline: number;
+        };
+        '&:focus': {
+            outline: number;
+        };
+        MozOsxFontSmoothing: string;
+        WebkitAppearance: string;
+        WebkitFontSmoothing: string;
+        appearance: string;
+        background: string;
+        border: number;
+        cursor: string;
+        font: string;
+        fontFamily: string;
+        margin: number;
+        outline: string;
+        overflow: string;
+        textOverflow: string;
+        whiteSpace: string;
+        width: string;
+    };
+    html: {
+        MozOsxFontSmoothing: string;
+        WebkitFontSmoothing: string;
+        fontSize: string;
+        lineHeight: string;
+        textRendering: string;
+    };
+    svg: {
+        verticalAlign: string;
+    };
+};
 export interface DefaultProps {
     css?: CSS;
     id?: string;

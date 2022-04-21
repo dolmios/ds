@@ -160,7 +160,7 @@ export const lightTheme = createTheme({
   },
 });
 
-export const globalStyles = globalCss({
+export const reset = {
   '@import': 'url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap")',
   // eslint-disable-next-line sort-keys-fix/sort-keys-fix
   '*': {
@@ -249,7 +249,7 @@ export const globalStyles = globalCss({
   svg: {
     verticalAlign: 'middle',
   },
-});
+};
 
 export interface DefaultProps {
   css?: CSS;

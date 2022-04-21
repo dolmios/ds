@@ -1,5 +1,5 @@
 import React, { ComponentType, ElementType } from 'react';
-import toast, { useToaster, Toaster } from 'react-hot-toast';
+import toast, { Toaster, useToaster } from 'react-hot-toast';
 import { useEventListener } from 'usehooks-ts';
 
 import { Box } from '../Box';

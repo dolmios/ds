@@ -1,5 +1,5 @@
 import { MoonStars, SunHorizon } from 'phosphor-react';
-import React, { useEffect, useState, ReactNode } from 'react';
+import React, { ReactNode, useEffect, useState } from 'react';
 import { useDarkMode } from 'usehooks-ts';
 
 import { DefaultProps, lightTheme, theme } from '../../stitches.config';
@@ -21,7 +21,7 @@ export default function Provider(props: Props): JSX.Element {
   }, []);
 
   if (!mounted) {
-    return <></>;
+    return <div />;
   }
 
   return (

@@ -1,5 +1,5 @@
 import { Check, ClipboardText, Warning } from 'phosphor-react';
-import React, { useState, InputHTMLAttributes } from 'react';
+import React, { InputHTMLAttributes, useState } from 'react';
 
 import { DefaultProps } from '../../stitches.config';
 import { Badge } from '../Badge';

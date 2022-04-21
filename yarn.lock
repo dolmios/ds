@@ -2441,6 +2441,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@threesdev/ds@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@threesdev/ds@workspace:."
+  dependencies:
+    "@stitches/react": ^1.2.7
+    "@types/react": ^18.0.5
+    "@typescript-eslint/eslint-plugin": ^5.20.0
+    eslint: ^8.13.0
+    eslint-config-dolmios: ^1.0.5
+    eslint-plugin-sort-keys-fix: ^1.1.2
+    microbundle: ^0.14.2
+    next: ^12.1.5
+    parcel: ^2.4.1
+    phosphor-react: ^1.4.1
+    prettier: ^2.6.2
+    react: ^18.0.0
+    react-dom: ^18.0.0
+    react-hot-toast: ^2.2.0
+    typescript: ^4.6.3
+    usehooks-ts: ^2.5.1
+  peerDependencies:
+    "@stitches/react": ^1.2.7
+    next: ">=12.1.0"
+    phosphor-react: ">=1.4.0"
+    react: ">=17.0.2"
+    react-dom: ">=17.0.2"
+    react-hot-toast: ">=2.0.0"
+  languageName: unknown
+  linkType: soft
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -3567,36 +3597,6 @@ __metadata:
   checksum: 18a7b3ef0e90fd6fcce7c7cbdd48d923b0cb180807540b80c797bda4a098097e17820d6315ae28eec22f73954cd0ab9d81904d46370183817c09f694d40566ff
   languageName: node
   linkType: hard
-
-"ds@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "ds@workspace:."
-  dependencies:
-    "@stitches/react": ^1.2.7
-    "@types/react": ^18.0.5
-    "@typescript-eslint/eslint-plugin": ^5.20.0
-    eslint: ^8.13.0
-    eslint-config-dolmios: ^1.0.5
-    eslint-plugin-sort-keys-fix: ^1.1.2
-    microbundle: ^0.14.2
-    next: ^12.1.5
-    parcel: ^2.4.1
-    phosphor-react: ^1.4.1
-    prettier: ^2.6.2
-    react: ^18.0.0
-    react-dom: ^18.0.0
-    react-hot-toast: ^2.2.0
-    typescript: ^4.6.3
-    usehooks-ts: ^2.5.1
-  peerDependencies:
-    "@stitches/react": ^1.2.7
-    next: ">=12.1.0"
-    phosphor-react: ">=1.4.0"
-    react: ">=17.0.2"
-    react-dom: ">=17.0.2"
-    react-hot-toast: ">=2.0.0"
-  languageName: unknown
-  linkType: soft
 
 "duplexer@npm:0.1.1":
   version: 0.1.1
