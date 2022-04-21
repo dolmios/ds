@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { breakpoints, DefaultProps } from '../../stitches.config';
 
 import { DividerStyled } from './Divider.styles';

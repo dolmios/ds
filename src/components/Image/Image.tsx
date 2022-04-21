@@ -1,4 +1,5 @@
 import { default as NextImage, ImageProps } from 'next/image';
+import React from 'react';
 
 import { DefaultProps } from '../../stitches.config';
 
