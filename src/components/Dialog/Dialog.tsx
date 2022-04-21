@@ -1,4 +1,4 @@
-import { ReactNode, useRef, useState } from 'react';
+import React, { ReactNode, useRef, useState } from 'react';
 import { useEventListener, useLockedBody, useOnClickOutside } from 'usehooks-ts';
 
 import { breakpoints, DefaultProps } from '../../stitches.config';

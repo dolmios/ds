@@ -15,4 +15,5 @@ export * from './components/Table/index';
 export * from './components/Text/index';
 export * from './components/Toast/index';
 export * from './components/View/index';
-export { breakpoints, css, getCssText, globalCss, lightTheme, reset, styled, theme } from './stitches.config';
+
+export { breakpoints, css, getCssText, lightTheme, styled, theme } from './stitches.config';

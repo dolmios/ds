@@ -134,5 +134,6 @@ export declare const ProviderStyled: import("@stitches/react/types/styled-compon
         [x: string]: unknown;
     };
 }>>;
+export declare const reset: () => string;
 export default ProviderStyled;
 //# sourceMappingURL=Provider.styles.d.ts.map

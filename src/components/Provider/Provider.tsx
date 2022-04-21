@@ -6,7 +6,7 @@ import { DefaultProps, lightTheme, theme } from '../../stitches.config';
 import { Button } from '../Button';
 import { Toast } from '../Toast';
 
-import { ProviderStyled } from './Provider.styles';
+import { ProviderStyled, reset } from './Provider.styles';
 
 export interface Props extends DefaultProps {
   children: ReactNode | ReactNode[];
@@ -15,6 +15,8 @@ export interface Props extends DefaultProps {
 export default function Provider(props: Props): JSX.Element {
   const { isDarkMode } = useDarkMode(true);
   const [mounted, setMounted] = useState(false);
+
+  reset();
 
   useEffect(() => {
     setMounted(true);

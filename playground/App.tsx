@@ -1,10 +1,9 @@
 import { ReactElement } from 'react';
 import toast from 'react-hot-toast';
 
-import { Box, Provider, Stack, Text, View, globalStyles, Button } from '../src/index';
+import { Box, Provider, Stack, Text, View, Button } from '../src/index';
 
 export function App(): ReactElement {
-  globalStyles();
   return (
     <Provider>
       <View top='6' bottom='6'>
