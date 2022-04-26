@@ -1,4 +1,4 @@
-import { styled } from '../../stitches.config';
+import { breakpoints, styled } from '../../stitches.config';
 
 export const StackRowStyled = styled('div', {
   '*': {
@@ -15,9 +15,14 @@ export const StackRowStyled = styled('div', {
 export const StackColumnStyled = styled('div', {
   flex: '1 1 auto',
   maxWidth: '100%',
-  paddingLeft: '$3',
-  paddingRight: '$3',
+  paddingLeft: '$4',
+  paddingRight: '$4',
   width: '100%',
+
+  [breakpoints.tablet]: {
+    paddingLeft: '$3',
+    paddingRight: '$3',
+  },
 });
 
 export default StackRowStyled;
