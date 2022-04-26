@@ -14,7 +14,6 @@ export declare const InputStyled: import("@stitches/react/types/styled-component
     borderRadius: string;
     display: string;
     justifyContent: string;
-    maxWidth: string;
     padding: string;
     position: string;
     transition: string;

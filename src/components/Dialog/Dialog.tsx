@@ -55,6 +55,7 @@ export default function Dialog(props: Props): JSX.Element {
                 '&:hover': {
                   background: '$overlay',
                 },
+                background: '$background',
                 paddingBottom: '$6',
                 paddingTop: '$6',
                 [breakpoints.phone]: {

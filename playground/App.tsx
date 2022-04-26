@@ -1,7 +1,7 @@
 import { ReactElement } from 'react';
 import toast from 'react-hot-toast';
 
-import { Box, Provider, Stack, Text, View, Button } from '../src/index';
+import { Box, Provider, Stack, Text, View, Button, Input } from '../src/index';
 
 export function App(): ReactElement {
   return (
@@ -19,6 +19,11 @@ export function App(): ReactElement {
             <Box>
               <Button onClick={(): string => toast('yo')}>hey</Button>
             </Box>
+          </Stack>
+        </Stack>
+        <Stack direction='row' top='8'>
+          <Stack direction='column'>
+            <Input />
           </Stack>
         </Stack>
       </View>

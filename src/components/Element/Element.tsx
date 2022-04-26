@@ -8,6 +8,7 @@ export interface Props extends Omit<DefaultProps, 'spacing'> {
   children: ReactNode;
   top?: DefaultProps['spacing'];
   bottom?: DefaultProps['spacing'];
+  flexduo?: boolean;
 }
 
 export default function Element(props: Props): JSX.Element {
@@ -28,6 +29,7 @@ export default function Element(props: Props): JSX.Element {
         }),
         ...props.css,
       }}
+      flexduo={props.flexduo}
       id={props.id}>
       {props.children}
     </ElementStyled>

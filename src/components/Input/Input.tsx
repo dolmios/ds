@@ -48,17 +48,15 @@ export default function Input(props: Props): JSX.Element {
   }
 
   return (
-    <InputStyled css={props.css} disabled={props.disabled} id={props.id} state={props.success ? 'success' : props.warning ? 'warning' : props.error ? 'error' : 'default'}>
-      <InputAreaStyled
-        css={{
-          maxWidth: props.maxWidth || '100%',
-          ...props.css,
-        }}
-        disabled={props.disabled}
-        onChange={handleChange}
-        placeholder={props.placeholder}
-        value={value}
-      />
+    <InputStyled
+      css={{
+        maxWidth: props.maxWidth || '80%',
+        width: props.maxWidth || '80%',
+      }}
+      disabled={props.disabled}
+      id={props.id}
+      state={props.success ? 'success' : props.warning ? 'warning' : props.error ? 'error' : 'default'}>
+      <InputAreaStyled css={props.css} disabled={props.disabled} onChange={handleChange} placeholder={props.placeholder} value={value} />
       {(props.error || props.success || props.warning || props.loading || props.submit || props.copy) && (
         <InputFunctionStyled>
           {props.error && (

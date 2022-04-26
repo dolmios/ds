@@ -1,4 +1,20 @@
-export declare const ElementStyled: import("@stitches/react/types/styled-component").StyledComponent<"div", {}, {}, import("@stitches/react/types/css-util").CSS<{}, {
+export declare const ElementStyled: import("@stitches/react/types/styled-component").StyledComponent<"div", import("@stitches/react/types/styled-component").StyledComponentProps<[{
+    marginBlockEnd: number;
+    marginBlockStart: number;
+    variants: {
+        flexduo: {
+            true: {
+                '*': {
+                    margin: string;
+                    verticalAlign: string;
+                };
+                alignItems: string;
+                display: string;
+                justifyContent: string;
+            };
+        };
+    };
+}]>, {}, import("@stitches/react/types/css-util").CSS<{}, {
     colors: {
         background: string;
         blueBorder: string;

@@ -1,8 +1,5 @@
 export declare const BadgeStyled: import("@stitches/react/types/styled-component").StyledComponent<"div", import("@stitches/react/types/styled-component").StyledComponentProps<[{
     [x: string]: string | number | {
-        fontSize: string;
-        theme?: undefined;
-    } | {
         theme: {
             blue: {
                 background: string;
@@ -34,6 +31,9 @@ export declare const BadgeStyled: import("@stitches/react/types/styled-component
             };
         };
         fontSize?: undefined;
+    } | {
+        fontSize: string;
+        theme?: undefined;
     };
     alignItems: string;
     borderRadius: string;
@@ -74,6 +74,7 @@ export declare const BadgeStyled: import("@stitches/react/types/styled-component
             };
         };
     };
+    verticalAlign: string;
 }]>, {}, import("@stitches/react/types/css-util").CSS<{}, {
     colors: {
         background: string;

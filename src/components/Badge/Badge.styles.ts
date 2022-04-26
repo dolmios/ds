@@ -8,11 +8,6 @@ export const BadgeStyled = styled('div', {
   fontWeight: 500,
   justifyContent: 'center',
   padding: '$1 $3',
-
-  [breakpoints.phone]: {
-    fontSize: '$p',
-  },
-
   variants: {
     theme: {
       blue: {
@@ -45,6 +40,12 @@ export const BadgeStyled = styled('div', {
       },
     },
   },
+
+  [breakpoints.phone]: {
+    fontSize: '$p',
+  },
+
+  verticalAlign: 'middle',
 });
 
 export const BadgeIconStyled = styled('span', {
