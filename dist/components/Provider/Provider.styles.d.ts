@@ -103,6 +103,12 @@ export declare const ProviderStyled: import("@stitches/react/types/styled-compon
             display: string;
         };
     };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
+    };
     laptop: (value: unknown) => {
         [x: string]: unknown;
     };

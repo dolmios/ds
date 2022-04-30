@@ -226,6 +226,12 @@ export declare const ButtonStyled: import("@stitches/react/types/styled-componen
             display: string;
         };
     };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
+    };
     laptop: (value: unknown) => {
         [x: string]: unknown;
     };
@@ -361,6 +367,12 @@ export declare const ButtonIconStyled: import("@stitches/react/types/styled-comp
         [x: string]: {
             display: string;
         };
+    };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
     };
     laptop: (value: unknown) => {
         [x: string]: unknown;

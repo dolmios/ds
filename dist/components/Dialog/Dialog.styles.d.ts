@@ -103,6 +103,12 @@ export declare const DialogStyled: import("@stitches/react/types/styled-componen
             display: string;
         };
     };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
+    };
     laptop: (value: unknown) => {
         [x: string]: unknown;
     };
@@ -238,6 +244,12 @@ export declare const DialogTriggerStyled: import("@stitches/react/types/styled-c
         [x: string]: {
             display: string;
         };
+    };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
     };
     laptop: (value: unknown) => {
         [x: string]: unknown;
@@ -397,6 +409,12 @@ export declare const DialogOverlayStyled: import("@stitches/react/types/styled-c
         [x: string]: {
             display: string;
         };
+    };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
     };
     laptop: (value: unknown) => {
         [x: string]: unknown;
@@ -578,6 +596,12 @@ export declare const DialogContentStyled: import("@stitches/react/types/styled-c
             display: string;
         };
     };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
+    };
     laptop: (value: unknown) => {
         [x: string]: unknown;
     };
@@ -713,6 +737,12 @@ export declare const DialogExitStyled: import("@stitches/react/types/styled-comp
         [x: string]: {
             display: string;
         };
+    };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
     };
     laptop: (value: unknown) => {
         [x: string]: unknown;

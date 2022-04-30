@@ -129,6 +129,12 @@ export declare const ToastStyled: import("@stitches/react/types/styled-component
             display: string;
         };
     };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
+    };
     laptop: (value: unknown) => {
         [x: string]: unknown;
     };
@@ -264,6 +270,12 @@ export declare const ToastContainerStyled: import("@stitches/react/types/styled-
         [x: string]: {
             display: string;
         };
+    };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
     };
     laptop: (value: unknown) => {
         [x: string]: unknown;

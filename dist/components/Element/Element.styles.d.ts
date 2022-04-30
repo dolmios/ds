@@ -5,12 +5,14 @@ export declare const ElementStyled: import("@stitches/react/types/styled-compone
         flexduo: {
             true: {
                 '*': {
+                    alignSelf: string;
                     margin: string;
                     verticalAlign: string;
                 };
                 alignItems: string;
                 display: string;
                 justifyContent: string;
+                verticalAlign: string;
             };
         };
     };
@@ -118,6 +120,12 @@ export declare const ElementStyled: import("@stitches/react/types/styled-compone
         [x: string]: {
             display: string;
         };
+    };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
     };
     laptop: (value: unknown) => {
         [x: string]: unknown;

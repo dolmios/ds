@@ -213,6 +213,12 @@ export declare const theme: string & {
             display: string;
         };
     };
+    hiddenInline: (value: 'phone' | 'tablet' | 'tabletX' | 'laptop' | 'laptopX' | 'desktop' | 'desktopX' | 'wide') => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
+    };
     laptop: (value: unknown) => {
         [x: string]: unknown;
     };
@@ -361,6 +367,12 @@ export declare const theme: string & {
             display: string;
         };
     };
+    hiddenInline: (value: 'phone' | 'tablet' | 'tabletX' | 'laptop' | 'laptopX' | 'desktop' | 'desktopX' | 'wide') => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
+    };
     laptop: (value: unknown) => {
         [x: string]: unknown;
     };
@@ -507,6 +519,12 @@ export declare const theme: string & {
             display: string;
         };
     };
+    hiddenInline: (value: 'phone' | 'tablet' | 'tabletX' | 'laptop' | 'laptopX' | 'desktop' | 'desktopX' | 'wide') => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
+    };
     laptop: (value: unknown) => {
         [x: string]: unknown;
     };
@@ -648,6 +666,12 @@ export declare const theme: string & {
                 display: string;
             };
         };
+        hiddenInline: (value: 'phone' | 'tablet' | 'tabletX' | 'laptop' | 'laptopX' | 'desktop' | 'desktopX' | 'wide') => {
+            [x: string]: string | {
+                display: string;
+            };
+            display: string;
+        };
         laptop: (value: unknown) => {
             [x: string]: unknown;
         };
@@ -784,6 +808,12 @@ export declare const theme: string & {
             display: string;
         };
     };
+    hiddenInline: (value: 'phone' | 'tablet' | 'tabletX' | 'laptop' | 'laptopX' | 'desktop' | 'desktopX' | 'wide') => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
+    };
     laptop: (value: unknown) => {
         [x: string]: unknown;
     };
@@ -919,6 +949,12 @@ export declare const theme: string & {
             [x: string]: {
                 display: string;
             };
+        };
+        hiddenInline: (value: 'phone' | 'tablet' | 'tabletX' | 'laptop' | 'laptopX' | 'desktop' | 'desktopX' | 'wide') => {
+            [x: string]: string | {
+                display: string;
+            };
+            display: string;
         };
         laptop: (value: unknown) => {
             [x: string]: unknown;

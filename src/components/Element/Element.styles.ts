@@ -8,12 +8,14 @@ export const ElementStyled = styled('div', {
     flexduo: {
       true: {
         '*': {
+          alignSelf: 'center',
           margin: '0 !important',
           verticalAlign: 'middle',
         },
         alignItems: 'center',
         display: 'flex',
         justifyContent: 'space-between',
+        verticalAlign: 'middle',
       },
     },
   },

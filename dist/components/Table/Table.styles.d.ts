@@ -103,6 +103,12 @@ export declare const TableStyled: import("@stitches/react/types/styled-component
             display: string;
         };
     };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
+    };
     laptop: (value: unknown) => {
         [x: string]: unknown;
     };
@@ -238,6 +244,12 @@ export declare const TableHeadStyled: import("@stitches/react/types/styled-compo
         [x: string]: {
             display: string;
         };
+    };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
     };
     laptop: (value: unknown) => {
         [x: string]: unknown;
@@ -375,6 +387,12 @@ export declare const TableBodyStyled: import("@stitches/react/types/styled-compo
             display: string;
         };
     };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
+    };
     laptop: (value: unknown) => {
         [x: string]: unknown;
     };
@@ -510,6 +528,12 @@ export declare const TableRowStyled: import("@stitches/react/types/styled-compon
         [x: string]: {
             display: string;
         };
+    };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
     };
     laptop: (value: unknown) => {
         [x: string]: unknown;
@@ -647,6 +671,12 @@ export declare const TableCellStyled: import("@stitches/react/types/styled-compo
             display: string;
         };
     };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
+    };
     laptop: (value: unknown) => {
         [x: string]: unknown;
     };
@@ -782,6 +812,12 @@ export declare const TableHeadCellStyled: import("@stitches/react/types/styled-c
         [x: string]: {
             display: string;
         };
+    };
+    hiddenInline: (value: "desktop" | "desktopX" | "phone" | "tablet" | "tabletX" | "laptop" | "laptopX" | "wide") => {
+        [x: string]: string | {
+            display: string;
+        };
+        display: string;
     };
     laptop: (value: unknown) => {
         [x: string]: unknown;

@@ -109,6 +109,12 @@ export const { theme, css, styled, getCssText, globalCss, keyframes } = createSt
         display: 'none',
       },
     }),
+    hiddenInline: (value: 'phone' | 'tablet' | 'tabletX' | 'laptop' | 'laptopX' | 'desktop' | 'desktopX' | 'wide') => ({
+      display: 'inline-block',
+      [breakpoints[value]]: {
+        display: 'none',
+      },
+    }),
     laptop: (value: unknown) => ({
       [breakpoints.laptop]: value,
     }),
