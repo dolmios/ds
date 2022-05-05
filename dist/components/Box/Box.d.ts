@@ -7,6 +7,7 @@ export interface Props extends DefaultProps {
     imageCTA?: string;
     imageHeight?: string;
     imageTarget?: '_blank' | '_self';
+    imagePosition?: 'top' | 'bottom' | 'center';
     imageAlt?: string;
     micro?: boolean;
     hover?: boolean;

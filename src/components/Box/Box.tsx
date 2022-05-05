@@ -12,6 +12,7 @@ export interface Props extends DefaultProps {
   imageCTA?: string;
   imageHeight?: string;
   imageTarget?: '_blank' | '_self';
+  imagePosition?: 'top' | 'bottom' | 'center';
   imageAlt?: string;
   micro?: boolean;
   hover?: boolean;
@@ -33,6 +34,7 @@ export default function Box(props: Props): JSX.Element {
             fillHeight={props.imageHeight || '20rem'}
             alt={props.imageAlt || ('#' as string)}
             objectFit={'cover'}
+            objectPosition={props.imagePosition || 'center'}
             layout='fill'
             src={props.image.toString()}
             hover
@@ -49,6 +51,7 @@ export default function Box(props: Props): JSX.Element {
           fillHeight={props.imageHeight || '20rem'}
           alt={props.imageAlt || ('#' as string)}
           objectFit={'cover'}
+          objectPosition={props.imagePosition || 'center'}
           layout='fill'
           src={props.image.toString()}
           hover

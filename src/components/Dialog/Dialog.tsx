@@ -53,7 +53,7 @@ export default function Dialog(props: Props): JSX.Element {
             <Box
               css={{
                 '&:hover': {
-                  background: '$overlay',
+                  background: '$background',
                 },
                 background: '$background',
                 paddingBottom: '$6',
