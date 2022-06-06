@@ -1,11 +1,10 @@
-# @threesdev/ds
+# @dolmios/ds
 
-A straight-forward Next + Stitches component library for Threes projects, and eventually a library to support rapid bootstrapping of any web3 project. This is a work in progress,
-but is currently used in our index (public website) repo, so it's stable-ish.
+A straight-forward Next + Stitches component library for bootstrapping projects, and eventually a library to support others with getting their project off the ground. This is a work in progress, but is currently used in a few production projects, so it's stable-ish.
 
 ### Installation
 
-    $ yarn add @threesdev/ds
+    $ yarn add @dolmios/ds
 
 ### Develop
 
